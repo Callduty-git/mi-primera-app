@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import escudosena from '/Escudosena.png'
+import senaLogo from '/Logosena.png'
 import './App.css'
 import Saludo from './components/saludo'; // Importa el componente
 
@@ -14,18 +14,18 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://static.wikia.nocookie.net/logopedia/images/e/eb/Escudosena.png/revision/latest?cb=20240403134229&path-prefix=es" target="_blank">
+          <img src={escudosena} className="logo react" alt="React logo" />
         </a>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://c0.klipartz.com/pngpicture/440/795/gratis-png-logo-servicio-nacional-de-aprendizaje-sena-simbolo-servicio-de-entrenamiento-nacional-logo-de-dragon-ball-thumbnail.png" target="_blank">
+          <img src={senaLogo} className="logo" alt="Vite logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Mi primera app</h1>
           <div>
       {/* Usa el componente como una etiqueta HTML */}
-      <Saludo nombre="Ana" />
-      <Saludo nombre="Carlos" />
+      <Saludo nombre="Pepito" />
+
     </div>
       <p>Edit <code>src/App.jsx</code> </p>{count}
       
